@@ -1,4 +1,4 @@
-#Docker image to see if we get /tmp directory in our Docker container, by default or not
+#Docker image
 FROM ubuntu
 WORKDIR /myWorkingDirectory
 RUN echo "Hi, from Docker Container">file1
